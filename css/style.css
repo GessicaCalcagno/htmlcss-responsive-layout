@@ -41,12 +41,19 @@ body {
     justify-content: space-between;
 }
 
+.white{
+    color: white;
+}
 .mrg-top-70{
     margin-top: 70px;
 }
 
 .mrg-top-20{
     margin-top: 20px;
+}
+
+.pdg-20{
+    padding: 20px;
 }
 
 /* ------------HEADER ----------*/
@@ -111,7 +118,7 @@ body {
 .app-dev-right{
     background-color: white;
     border-radius: 10px;
-    margin: 20px 10px 0;
+    margin: 20px 10px 0 10px;
 }
 
 .strat-right{
@@ -132,8 +139,17 @@ body {
     background-color: #9792E4;
     border-radius: 20px;
     padding: 20px 5px;
-    /* debug */
-    height: 150px;
-    width: 100%;
 }
+/**********************************************************************/
 
+/* <!-- SEZIONE BENEFIT OF WORKING  --> */
+.benefit-work{
+    width: 100%;
+    background-color: #9792E4 ;
+    padding: 0 0 20px 0;
+}
+.beneft-card{
+    background-color: white;
+    border-radius: 10px;
+    text-align: left;
+}

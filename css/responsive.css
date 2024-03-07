@@ -53,11 +53,29 @@
          text-align: left;
          padding: 10px;
      }
-/* <!---------- SEZIONE TESTIMONIAL -----------> */
-/* .cardtest{
-    margin-bottom: 200px;
-} */
 
+     /* <!---------- SEZIONE TESTIMONIAL -----------> */
+     .cardtest {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+
+     .testimonial-text-right {
+         text-align: left;
+     }
+
+     /* <!----------- SEZIONE BENEFIT OF WORKING ------------------> */
+     .wrapper-benefit {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+         gap: 35px;
+     }
+
+     .beneft-card {
+         width: 47%;
+     }
 
  }
 
@@ -82,5 +100,14 @@
      .strategic {
          display: flex;
 
+     }
+
+     /* <!----------- SEZIONE BENEFIT OF WORKING ------------------> */
+     .wrapper-benefit {
+         gap: 28px;
+     }
+
+     .beneft-card {
+         width: 31%;
      }
  }
