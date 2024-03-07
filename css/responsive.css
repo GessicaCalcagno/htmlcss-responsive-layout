@@ -5,7 +5,7 @@
 
      /* Header uguale per il mobile */
      /* ------------------------------ */
-    
+
      .container {
          width: 80%;
          margin: 0 auto;
@@ -44,6 +44,18 @@
          margin-right: 0;
      }
 
+     /* <!---------- SEZIONE STRATEGIC PLANNING -----------> */
+     .strategic {
+         text-align: center;
+     }
+
+     .strat-left-text {
+         text-align: left;
+         padding: 10px;
+     }
+
+
+
  }
 
 
@@ -63,6 +75,9 @@
          display: flex;
      }
 
-     
+     /* <!---------- SEZIONE STRATEGIC PLANNING -----------> */
+     .strategic {
+         display: flex;
 
+     }
  }

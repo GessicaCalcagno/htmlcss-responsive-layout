@@ -18,8 +18,8 @@ body {
 .container {
     width: 100%;
     padding: 0px 1rem;
+    
 }
-
 
 /************************************************
     UTILITIES
@@ -72,8 +72,12 @@ body {
 }
 /* ------------ AND HEADER ----------*/
 
-/* -------------- HERO ---------------------*/
+/****************************************************************/
 
+/* -------------- HERO ---------------------*/
+.hero-section{
+    padding-bottom: 20px;
+}
 .card,
 .big-card,
 .card-right{
@@ -82,4 +86,27 @@ body {
     /* degub */
     background-color: #67adef;
     min-height: 100px;
+}
+
+
+/**********************************************************************/
+
+/* <!---------- SEZIONE STRATEGIC PLANNING -----------> */
+.strategic{
+    width: 100%;
+    background-color: #9792E4 ;
+    padding: 20px 10px;
+}
+
+.strat-left{
+    padding: 10px;
+}
+.app-dev-right{
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px 10px 0;
+}
+
+.strat-right{
+    padding: 10px;
 }
