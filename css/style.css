@@ -3,65 +3,83 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  img{
-    max-width: 100%;
-  }
-  
-  body{
-    font-family:'PT Sans';
-    font-size: clamp( 1.8rem, calc(3vh + 0.8), 3rem);
-  }
+}
 
-  /* COMMON */
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'PT Sans';
+    font-size: clamp(1.8rem, calc(3vh + 0.8), 3rem);
+}
+
+/* COMMON */
 .container {
     width: 100%;
     padding: 0px 1rem;
-  }
+}
 
 
-  /************************************************
+/************************************************
     UTILITIES
  ************************************************/
 .flex {
     display: flex;
-  }
+}
 
-  .centre{
+.centre {
     justify-content: center;
     align-items: center;
-  }
-  .justify-content-between {
-    justify-content: space-between;
-  }
-  
-  /* HEADER */
-  .header {
-    background-color: #0084FD;
-    height: 60px;
-  }
+}
 
-  .logo-hed img{
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.mrg-top-70{
+    margin-top: 70px;
+}
+
+
+/* ------------HEADER ----------*/
+.header {
+    background-color: #0084FD;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 9999;
+}
+
+.logo-hed img {
     vertical-align: middle;
 }
 
-  .header-menu {
+.header-menu {
     display: none;
-  }
+}
 
-  .header-menu ul {
+.header-menu ul {
     display: flex;
     list-style-type: none;
     gap: 16px;
-  }
-  
-  .hamburger-menu-btn {
+}
+
+.hamburger-menu-btn {
     font-size: 1.6rem;
     border: 0;
     background-color: transparent;
-  }
+}
+/* ------------ AND HEADER ----------*/
 
-/************************************************
-    MEDIA QUERY DESKTOP
- ************************************************/
+/* -------------- HERO ---------------------*/
 
+.card,
+.big-card,
+.card-right{
+    width: 100%;
+    margin-top: 20px;
+    /* degub */
+    background-color: #67adef;
+    min-height: 100px;
+}
