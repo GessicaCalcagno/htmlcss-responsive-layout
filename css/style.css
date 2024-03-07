@@ -28,9 +28,13 @@ body {
     display: flex;
 }
 
-.centre {
+.center {
     justify-content: center;
     align-items: center;
+}
+
+.text-align-center{
+    text-align: center;
 }
 
 .justify-content-between {
@@ -41,6 +45,9 @@ body {
     margin-top: 70px;
 }
 
+.mrg-top-20{
+    margin-top: 20px;
+}
 
 /* ------------HEADER ----------*/
 .header {
@@ -110,3 +117,23 @@ body {
 .strat-right{
     padding: 10px;
 }
+/**********************************************************************/
+
+/* <!---------- SEZIONE TESTIMONIAL -----------> */
+.testimonial{
+    padding: 40px 0;
+
+}
+.title-center{
+    padding-bottom: 20px;
+}
+
+.cardtest{
+    background-color: #9792E4;
+    border-radius: 20px;
+    padding: 20px 5px;
+    /* debug */
+    height: 150px;
+    width: 100%;
+}
+
