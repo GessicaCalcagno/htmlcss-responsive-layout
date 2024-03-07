@@ -1,0 +1,28 @@
+ /************************************************
+    MEDIA QUERY TABLET
+ ************************************************/
+ @media screen and (min-width: 768px) {
+ /* Header uguale per il mobile */
+
+ }
+
+
+ 
+ /************************************************
+    MEDIA QUERY DESKTOP
+ ************************************************/
+ @media screen and (min-width: 992px) {
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      max-width: 1200px;
+    }
+/* -----------HEADER--------- */
+    .hamburger-menu {
+        display: none;
+      }
+    
+    .header-menu {
+        display: flex;
+      }
+    }
