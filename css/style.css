@@ -11,7 +11,8 @@ img {
 
 body {
     font-family: 'PT Sans';
-    font-size: clamp(1.8rem, calc(3vh + 0.8), 3rem);
+    font-size: 1rem;
+    /* font-size: clamp(1.8rem, calc(3vh + 0.8), 3rem); */
 }
 
 /* COMMON */
@@ -24,7 +25,11 @@ body {
 /************************************************
     UTILITIES
  ************************************************/
-.flex {
+ a{
+    text-decoration: none;
+}
+
+ .flex {
     display: flex;
 }
 
@@ -97,11 +102,32 @@ body {
 .card-right{
     width: 100%;
     margin-top: 20px;
-    /* degub */
+    border-radius: 20px;
     background-color: #67adef;
+      /* degub */
     min-height: 100px;
 }
 
+.phone-img {
+display: block;
+}
+
+.hero-phone-img{
+    width: 100%;
+}
+
+.card-right,
+.card{
+    padding: 20px;
+}
+
+.hero-icone> .fa-solid{
+    font-size: 5rem;
+    padding-bottom: 10px;
+}
+.text-hero{
+    padding: 2rem;
+}
 
 /**********************************************************************/
 

@@ -1,6 +1,6 @@
- /************************************************
+ /********************************************************
     MEDIA QUERY TABLET
- ************************************************/
+ **********************************************************/
  @media screen and (min-width: 768px) {
 
      /* Header uguale per il mobile */
@@ -27,22 +27,29 @@
      }
 
      .big-card {
-         width: 66.3%;
+         width: 66.2%;
+         padding: 30px 30px 0 30px;
      }
 
      .card-right {
          width: 33%;
+         padding: 30px;
      }
 
      .card {
          width: 33%;
+         padding: 30px;
      }
 
      .big-card,
      .card {
-         padding: 30px;
          margin-right: 0;
      }
+
+     .hero-phone-img{
+        width: 50%;
+        text-align: left;
+    }
 
      /* <!---------- SEZIONE STRATEGIC PLANNING -----------> */
      .strategic {
@@ -81,9 +88,9 @@
 
 
 
- /************************************************
+ /**********************************************************
     MEDIA QUERY DESKTOP
- ************************************************/
+ **********************************************************/
 
  @media screen and (min-width: 992px) {
 
@@ -96,18 +103,46 @@
          display: flex;
      }
 
+     /* ---------- HERO -------- */
+     .big-card{
+        display: flex;
+     }
+     .hero-phone-img{
+        width: 100%;
+        text-align: left;
+        
+    }
+
+    .phone-img {
+        display: block;
+    
+    }
+
+
      /* <!---------- SEZIONE STRATEGIC PLANNING -----------> */
      .strategic {
          display: flex;
+     }
+
+     .strategic-left{
+        display: flex-start;
+     }
+
+     .app-dev-right {
+         display: flex-end;
 
      }
 
-     /* <!----------- SEZIONE BENEFIT OF WORKING ------------------> */
-     .wrapper-benefit {
-         gap: 28px;
-     }
-
-     .beneft-card {
-         width: 31%;
-     }
+ /* <!----------- SEZIONE BENEFIT OF WORKING ------------------> */
+ .wrapper-benefit {
+     gap: 28px;
  }
+
+ .beneft-card {
+     width: 31%;
+ }
+
+ }
+
+
+ 
