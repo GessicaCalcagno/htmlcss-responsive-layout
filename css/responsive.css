@@ -23,12 +23,15 @@
 
      .hero-wrapper {
          margin-top: 70px;
-         align-items: center;
+
      }
 
      .big-card {
          width: 66.2%;
          padding: 30px 30px 0 30px;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
      }
 
      .card-right {
@@ -46,10 +49,12 @@
          margin-right: 0;
      }
 
-     .hero-phone-img{
-        width: 50%;
-        text-align: left;
-    }
+     .hero-phone-img {
+         width: 50%;
+         text-align: left;
+         margin-left: 0;
+     }
+
 
      /* <!---------- SEZIONE STRATEGIC PLANNING -----------> */
      .strategic {
@@ -66,11 +71,29 @@
          display: flex;
          justify-content: center;
          align-items: center;
+         padding: 020px;
      }
 
-     .testimonial-text-right {
+     .testimonial-text-right,
+     .imgcircle {
          text-align: left;
+
      }
+
+     .imgcircle {
+        display: inline-block;
+        width: 20%;
+        margin-right: 20px;
+    }
+    .img-circle-test{
+        width: 100%;
+    }
+
+    .testimonial-text-right {
+        display: inline-block;
+        width: 80%;
+
+    }
 
      /* <!----------- SEZIONE BENEFIT OF WORKING ------------------> */
      .wrapper-benefit {
@@ -104,45 +127,66 @@
      }
 
      /* ---------- HERO -------- */
-     .big-card{
-        display: flex;
+     .big-card {
+         display: flex;
+         flex-direction: row;
      }
-     .hero-phone-img{
-        width: 100%;
-        text-align: left;
-        
-    }
 
-    .phone-img {
-        display: block;
-    
-    }
+     .hero-phone-img {
+         width: 30%;
+         display: flex;
+         align-items: flex-end;
+         margin-top: 20px;
+     }
+
+
+     .texthero {
+         width: 70%;
+     }
 
 
      /* <!---------- SEZIONE STRATEGIC PLANNING -----------> */
-     .strategic {
+     .containerstrategic {
          display: flex;
+         justify-content: space-between;
+         width: 80%;
+         margin: 0 auto;
+         max-width: 1200px;
      }
 
-     .strategic-left{
-        display: flex-start;
+     .strategic {
+         display: flex;
+         flex-direction: row;
+     }
+
+     .strategic-left {
+         /* justify-content: flex-start; */
+         width: 40%;
      }
 
      .app-dev-right {
-         display: flex-end;
+         margin-top: 100px;
+         /* align-items: flex-end; */
+         width: 40%;
+     }
+
+     /* <!---------- SEZIONE TESTIMONIAL -----------> */
+     .imgcircle {
+         width: 20%;
+     }
+
+     .testimonial-text-right {
+         width: 80%;
 
      }
 
- /* <!----------- SEZIONE BENEFIT OF WORKING ------------------> */
- .wrapper-benefit {
-     gap: 28px;
+     /* <!----------- SEZIONE BENEFIT OF WORKING ------------------> */
+     .wrapper-benefit {
+         gap: 28px;
+     }
+
+     .beneft-card {
+         width: 31%;
+     }
+
  }
-
- .beneft-card {
-     width: 31%;
- }
-
- }
-
-
- 

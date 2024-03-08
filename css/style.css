@@ -103,17 +103,20 @@ body {
     width: 100%;
     margin-top: 20px;
     border-radius: 20px;
-    background-color: #67adef;
+    background-color: #B5DDFF;
       /* degub */
-    min-height: 100px;
+    /* min-height: 100px; */
 }
-
+.big-card{
+    padding: 20px 20px 0 20px;
+}
 .phone-img {
 display: block;
 }
 
 .hero-phone-img{
-    width: 100%;
+    width: 50%;
+    margin-left: 25%;
 }
 
 .card-right,
@@ -126,7 +129,7 @@ display: block;
     padding-bottom: 10px;
 }
 .text-hero{
-    padding: 2rem;
+    padding: 1rem;
 }
 
 /**********************************************************************/
@@ -166,6 +169,15 @@ display: block;
     border-radius: 20px;
     padding: 20px 5px;
 }
+
+.img-circle-test {
+    width: 50%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+    /* object-position: center; */
+}
+
 /**********************************************************************/
 
 /* <!-- SEZIONE BENEFIT OF WORKING  --> */
