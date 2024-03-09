@@ -199,6 +199,11 @@ a {
 .strat-right {
     padding: 10px;
 }
+.fa-arrow-down{
+    background-color: #9792E4;
+    padding: 16px 20px;
+    border-radius: 50%;
+}
 
 /**********************************************************************/
 
