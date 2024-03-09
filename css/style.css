@@ -19,17 +19,17 @@ body {
 .container {
     width: 100%;
     padding: 0px 1rem;
-    
+
 }
 
 /************************************************
     UTILITIES
  ************************************************/
- a{
+a {
     text-decoration: none;
 }
 
- .flex {
+.flex {
     display: flex;
 }
 
@@ -38,7 +38,7 @@ body {
     align-items: center;
 }
 
-.text-align-center{
+.text-align-center {
     text-align: center;
 }
 
@@ -46,19 +46,39 @@ body {
     justify-content: space-between;
 }
 
-.white{
+.white {
     color: white;
 }
-.mrg-top-70{
+
+.mrg-top-70 {
     margin-top: 70px;
 }
 
-.mrg-top-20{
+.mrg-top-20 {
     margin-top: 20px;
 }
 
-.pdg-20{
+.pdg-20 {
     padding: 20px;
+}
+
+.color-blue-text {
+    color: #0084FD;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.pdg-bottom-20 {
+    padding-bottom: 20px;
+}
+
+.pdg-right-10 {
+    padding-right: 10px;
+}
+.pdg-top-20{
+    padding-top: 20px;
 }
 
 /* ------------HEADER ----------*/
@@ -89,82 +109,110 @@ body {
     border: 0;
     background-color: transparent;
 }
+
+.btn-header {
+    background-color: white;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 25px;
+    font-weight: 500;
+}
+
 /* ------------ AND HEADER ----------*/
 
 /****************************************************************/
 
 /* -------------- HERO ---------------------*/
-.hero-section{
+.hero-section {
     padding-bottom: 20px;
 }
+
 .card,
 .big-card,
-.card-right{
+.card-right {
     width: 100%;
     margin-top: 20px;
     border-radius: 20px;
     background-color: #B5DDFF;
-      /* degub */
+    /* degub */
     /* min-height: 100px; */
 }
-.big-card{
+
+.big-card {
     padding: 20px 20px 0 20px;
 }
+
 .phone-img {
-display: block;
+    display: block;
 }
 
-.hero-phone-img{
+.hero-phone-img {
     width: 50%;
     margin-left: 25%;
 }
 
+.btn-apple {
+    background-color: #0084FD;
+    padding: 2px 20px 8px 20px;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+
+.fa-brands .fa-apple{
+    padding: 20px 10px 2px 0;
+    font-weight: 100;
+}
+
 .card-right,
-.card{
+.card {
     padding: 20px;
 }
 
-.hero-icone> .fa-solid{
+.hero-icone>.fa-solid {
     font-size: 5rem;
     padding-bottom: 10px;
 }
-.text-hero{
+
+.text-hero {
     padding: 1rem;
 }
 
 /**********************************************************************/
 
 /* <!---------- SEZIONE STRATEGIC PLANNING -----------> */
-.strategic{
+.strategic {
     width: 100%;
-    background-color: #9792E4 ;
+    background-color: #9792E4;
     padding: 20px 10px;
 }
 
-.strat-left{
+.strat-left {
     padding: 10px;
 }
-.app-dev-right{
+
+.app-dev-right {
     background-color: white;
     border-radius: 10px;
     margin: 20px 10px 0 10px;
 }
 
-.strat-right{
+.strat-right {
     padding: 10px;
 }
+
 /**********************************************************************/
 
 /* <!---------- SEZIONE TESTIMONIAL -----------> */
-.testimonial{
+.testimonial {
     padding: 40px 0;
 
 }
-.title-center{
+
+.title-center {
     padding-bottom: 20px;
 }
 
-.cardtest{
+.cardtest {
     background-color: #9792E4;
     border-radius: 20px;
     padding: 20px 5px;
@@ -181,12 +229,13 @@ display: block;
 /**********************************************************************/
 
 /* <!-- SEZIONE BENEFIT OF WORKING  --> */
-.benefit-work{
+.benefit-work {
     width: 100%;
-    background-color: #9792E4 ;
+    background-color: #9792E4;
     padding: 0 0 20px 0;
 }
-.beneft-card{
+
+.beneft-card {
     background-color: white;
     border-radius: 10px;
     text-align: left;
