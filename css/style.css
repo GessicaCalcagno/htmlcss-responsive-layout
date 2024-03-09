@@ -111,6 +111,8 @@ a {
 .line-height-30{
     line-height:30px;
 }
+
+/**********************************************************************/
 /* ------------HEADER ----------*/
 .header {
     background-color: #0084FD;
@@ -148,10 +150,9 @@ a {
     font-weight: 500;
 }
 
-/* ------------ AND HEADER ----------*/
+
 
 /****************************************************************/
-
 /* -------------- HERO ---------------------*/
 .hero-section {
     padding-bottom: 20px;
@@ -164,8 +165,6 @@ a {
     margin-top: 20px;
     border-radius: 20px;
     background-color: #B5DDFF;
-    /* degub */
-    /* min-height: 100px; */
 }
 
 .big-card {
@@ -183,7 +182,7 @@ a {
 
 .btn-apple {
     background-color: #0084FD;
-    padding: 2px 20px 8px 20px;
+    padding: 8px 20px 8px 20px;
     border-radius: 20px;
     vertical-align: middle;
 }
@@ -208,7 +207,6 @@ a {
 }
 
 /**********************************************************************/
-
 /* <!---------- SEZIONE STRATEGIC PLANNING -----------> */
 .strategic {
     width: 100%;
@@ -237,7 +235,6 @@ a {
 }
 
 /**********************************************************************/
-
 /* <!---------- SEZIONE TESTIMONIAL -----------> */
 .testimonial {
     padding: 40px 0;
@@ -270,7 +267,6 @@ a {
 }
 
 /**********************************************************************/
-
 /* <!-- SEZIONE BENEFIT OF WORKING  --> */
 .benefit-work {
     width: 100%;
@@ -305,6 +301,7 @@ a {
     border-radius: 20px;
 }
 
+/**********************************************************************/
 /* <!---------------------- SEZIONE ABOUT US ---------------------> */
 .title-about-us{
     font-size: 3rem;
@@ -332,7 +329,7 @@ a {
     width: 100%;
 
 }
-.fa-quote-left{
+.quote-left-about-us {
     font-size: 3rem;
     position: absolute;
     top: 20px;
@@ -345,4 +342,15 @@ a {
     border-radius: 20px;
     display: inline-block;
     font-size: 0.8rem;
+}
+/**********************************************************************/
+/* <!-----------------SEZIONE CALL TO ACTION ----------------------> */
+.cta-section{
+background-color: #9792E4;
+}
+
+/*********************************************************************/
+/* <!----------------- FOOTER ----------------------> */
+.footer{
+    background-color: black;
 }
