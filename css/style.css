@@ -10,7 +10,7 @@ img {
 }
 
 body {
-    font-family: 'PT Sans';
+    font-family: 'PT Sans', sans-serif;
     font-size: 1rem;
     /* font-size: clamp(1.8rem, calc(3vh + 0.8), 3rem); */
 }
@@ -64,6 +64,10 @@ a {
 
 .color-blue-text {
     color: #0084FD;
+}
+
+.color-violet-text{
+    color: #9792E4;
 }
 
 .bold {
@@ -210,7 +214,10 @@ a {
 /* <!---------- SEZIONE TESTIMONIAL -----------> */
 .testimonial {
     padding: 40px 0;
+}
 
+.title-testimonials{
+    font-size: 2rem;
 }
 
 .title-center {
@@ -229,6 +236,10 @@ a {
     border-radius: 50%;
     object-fit: cover;
     /* object-position: center; */
+}
+
+.testimonial-name{
+    font-size: 1rem;
 }
 
 /**********************************************************************/
