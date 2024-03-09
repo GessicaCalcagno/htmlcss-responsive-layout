@@ -81,19 +81,20 @@
      }
 
      .imgcircle {
-        display: inline-block;
-        width: 20%;
-        margin-right: 20px;
-    }
-    .img-circle-test{
-        width: 100%;
-    }
+         display: inline-block;
+         width: 20%;
+         margin-right: 20px;
+     }
 
-    .testimonial-text-right {
-        display: inline-block;
-        width: 80%;
+     .img-circle-test {
+         width: 100%;
+     }
 
-    }
+     .testimonial-text-right {
+         display: inline-block;
+         width: 80%;
+
+     }
 
      /* <!----------- SEZIONE BENEFIT OF WORKING ------------------> */
      .wrapper-benefit {
@@ -107,6 +108,26 @@
          width: 47%;
      }
 
+     /* <!---------------------- SEZIONE ABOUT US  ----------------------> */
+     .about-us {
+         display: flex;
+         justify-content: space-between;
+     }
+
+     .about-left {
+         width: 60%;
+     }
+
+     .about-right {
+         width: 30%;
+     }
+     .imgcircle-about-us{
+        width: 50%;
+     }
+     .h-about-us{
+        line-height: 30px;
+        font-size: 1.2rem;
+     }
  }
 
 

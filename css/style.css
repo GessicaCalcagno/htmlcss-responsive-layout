@@ -19,7 +19,30 @@ body {
 .container {
     width: 100%;
     padding: 0px 1rem;
+}
 
+.pt-sans-regular {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pt-sans-bold {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.pt-sans-regular-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.pt-sans-bold-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: italic;
 }
 
 /************************************************
@@ -66,7 +89,7 @@ a {
     color: #0084FD;
 }
 
-.color-violet-text{
+.color-violet-text {
     color: #9792E4;
 }
 
@@ -81,10 +104,13 @@ a {
 .pdg-right-10 {
     padding-right: 10px;
 }
-.pdg-top-20{
+
+.pdg-top-20 {
     padding-top: 20px;
 }
-
+.line-height-30{
+    line-height:30px;
+}
 /* ------------HEADER ----------*/
 .header {
     background-color: #0084FD;
@@ -162,7 +188,7 @@ a {
     vertical-align: middle;
 }
 
-.fa-brands .fa-apple{
+.fa-brands .fa-apple {
     padding: 20px 10px 2px 0;
     font-weight: 100;
 }
@@ -203,7 +229,8 @@ a {
 .strat-right {
     padding: 10px;
 }
-.fa-arrow-down{
+
+.fa-arrow-down {
     background-color: #9792E4;
     padding: 16px 20px;
     border-radius: 50%;
@@ -216,7 +243,7 @@ a {
     padding: 40px 0;
 }
 
-.title-testimonials{
+.title-testimonials {
     font-size: 2rem;
 }
 
@@ -238,7 +265,7 @@ a {
     /* object-position: center; */
 }
 
-.testimonial-name{
+.testimonial-name {
     font-size: 1rem;
 }
 
@@ -251,7 +278,7 @@ a {
     padding: 0 0 20px 0;
 }
 
-.title-benefif{
+.title-benefif {
     font-size: 2rem;
     padding: 30px;
 }
@@ -266,12 +293,56 @@ a {
 .nmb-benefit {
     font-size: 3rem;
 }
-.title-card-benefit{
+
+.title-card-benefit {
     font-size: 1.2rem;
 }
-.btn-more{
+
+.btn-more {
     background-color: #9792E4;
     color: white;
     padding: 5px 15px 5px 15px;
     border-radius: 20px;
+}
+
+/* <!---------------------- SEZIONE ABOUT US ---------------------> */
+.title-about-us{
+    font-size: 3rem;
+}
+
+.img-circle-about-us{
+    width: 50%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+    /* object-position: center; */
+}
+
+.h-about-us{
+    font-size: 1rem;
+}
+
+.imgcircle-about-us{
+    position: relative;
+    display: inline-block;
+    width: 70%;
+}
+
+.img-circle-about-us{
+    width: 100%;
+
+}
+.fa-quote-left{
+    font-size: 3rem;
+    position: absolute;
+    top: 20px;
+    left: 70%;
+}
+.btn-linkedin{
+    background-color: #9792E4;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 0.8rem;
 }
