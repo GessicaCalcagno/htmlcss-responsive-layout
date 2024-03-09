@@ -251,8 +251,27 @@ a {
     padding: 0 0 20px 0;
 }
 
+.title-benefif{
+    font-size: 2rem;
+    padding: 30px;
+}
+
 .beneft-card {
     background-color: white;
     border-radius: 10px;
     text-align: left;
+    margin-top: 20px;
+}
+
+.nmb-benefit {
+    font-size: 3rem;
+}
+.title-card-benefit{
+    font-size: 1.2rem;
+}
+.btn-more{
+    background-color: #9792E4;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
 }
