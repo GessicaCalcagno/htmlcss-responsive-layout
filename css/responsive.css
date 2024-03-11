@@ -125,12 +125,11 @@
         width: 50%;
      }
      .h-about-us{
-        line-height: 30px;
+        line-height: 1.6;
         font-size: 1.2rem;
      }
      
  }
-
 
 
  /**********************************************************
@@ -160,7 +159,6 @@
          align-items: flex-end;
          margin-top: 20px;
      }
-
 
      .texthero {
          width: 70%;

@@ -21,6 +21,11 @@ body {
     padding: 0px 1rem;
 }
 
+p{
+    line-height: 1.6;
+    /* Non ha bisogno di unità di misura perchè si riferisce direttemante al testo, solo in alcune eccezioni */
+}
+
 .pt-sans-regular {
     font-family: "PT Sans", sans-serif;
     font-weight: 400;
@@ -151,7 +156,6 @@ a {
 }
 
 
-
 /****************************************************************/
 /* -------------- HERO ---------------------*/
 .hero-section {
@@ -232,6 +236,8 @@ a {
     background-color: #9792E4;
     padding: 16px 20px;
     border-radius: 50%;
+    color: black;
+    font-size: 1.2rem;
 }
 
 /**********************************************************************/
@@ -259,7 +265,7 @@ a {
     aspect-ratio: 1;
     border-radius: 50%;
     object-fit: cover;
-    /* object-position: center; */
+    /* object-position: center; --> è già così di default*/
 }
 
 .testimonial-name {
